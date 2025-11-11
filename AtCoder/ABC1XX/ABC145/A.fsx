@@ -1,13 +1,10 @@
-// https://atcoder.jp/contests/abc147/tasks/abc147_a
+// https://atcoder.jp/contests/abc145/tasks/abc145_a
 
-let fn a1 a2 a3 =
-    if a1 + a2 + a3 >= 22 then
-        "bust"
-    else
-        "win"
+let fn r =
+    r * r
 
-printfn "%s" (fn 5 7 9)
-//=> win
+printfn "%i" (fn 2)
+//=> 4
 
-printfn "%s" (fn 13 7 2)
-//=> bust
+printfn "%i" (fn 100)
+//=> 10000
