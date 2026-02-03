@@ -1,6 +1,6 @@
 // https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_ai
 
-let fn n q a lr =
+let fn _n _q a lr =
     let cumSum =
         a
         |> Array.fold
