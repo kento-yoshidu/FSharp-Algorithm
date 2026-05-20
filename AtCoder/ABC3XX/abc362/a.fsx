@@ -9,3 +9,9 @@ let fn r g b c =
 
 printfn "%i" (fn 20 30 10 "Blue")
 //=> 20
+
+printfn "%i" (fn 100 100 100 "Red")
+//=> 100
+
+printfn "%i" (fn 37 39 93 "Blue")
+//=> 37
